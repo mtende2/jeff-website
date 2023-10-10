@@ -1,0 +1,302 @@
+<!doctype html>
+	<html>
+	<head>
+       <?php
+        include("regester.php");
+    ?>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+		<title>hosipital system</title>
+	</head>
+	<style>
+body{
+margin: 0px;
+background:chocolate;
+}
+
+		ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+ul li {
+margin-left: 10px;
+font-size: 19px;
+background: white;
+padding: 5px;
+border-radius: 5px;
+margin-top:-290px ;
+}
+
+ul li a:hover {
+    background-color:black;
+    color: white;
+}
+
+        
+        
+
+        /* CSS styles for the footer links */
+        .footer ul {
+            list-style: none;
+            padding: 0;
+            margin-left:-100px;
+            margin-top: 160px;
+
+         
+        }
+
+        .footer li {
+            display: inline;
+            margin-right: 20px;
+            background-color: blue;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: maroon;
+        }
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.box {
+    background-color:orange;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+height: 572px;
+    width: 400px;
+    padding: 60px;
+   margin-top: -870px;
+    margin-right: 0px;
+    margin-left: 100px;
+}
+
+.row {
+    display: flex;
+}
+.box-1 {
+    flex: 1;
+    padding: 50px;
+    margin-bottom: 130px;
+}
+
+
+.box-2 {
+    flex: 2;
+}
+
+.inline-text {
+    text-align: center;
+	    }
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #777;
+    font-size: 14px;
+}
+
+.user-data {
+    margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.user-id p {
+    font-size: 14px;
+    color: #777;
+}
+
+.button {
+    text-align: center;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+span {
+    display: block;
+    text-align: right;
+}
+
+span a {
+    text-decoration: none;
+   color: #007BFF;
+    font-weight: bold;
+}
+
+
+.user-ids{
+    font-size: 30px;
+    background: lightgreen;
+
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <u><h2>WELCOME TO MARINDAH HEALTH CARE CLINIC</h2></u>
+    </div>
+
+
+
+
+    <img src="C:\Users\MIKE\OneDrive\Desktop\photohospital.jpg" width="900" height="370" >
+
+
+
+    <div class="container">
+      <div class="navbar">
+      </div>
+  </div>
+    <ul class="class1">
+        <li><a class="class1 "href="home.html">HOME</a></li>
+        <li><a class="class1 "href="about.html">ABOUT</a></li>
+        <li><a class="class1 "href="service.html">SERVICE</a></li>
+        <li><a class="class1 "href="design.html">DESIGN</a></li>
+        <li><a class="class1 "href="contact.html">CONTACT</a></li>
+         
+    </ul>
+    <div class="cont">
+        
+
+<!-- Footer section -->
+<div class="footer">
+    <ul>
+        <li><a href="https://www.facebook.com"><i class="fab fa-facebook"></i> Facebook</a></li>
+        <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i> Twitter</a></li>
+        <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i> Instagram</a></li>
+        <li><a href="https://www.whatsapp.com"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+    </ul>
+</div>
+
+
+
+
+
+       
+    </div>
+    <form action="" class="container">
+        <div class="box">
+            <div class="row">
+                <div class="box-1">
+                    <div class="inline-text">
+                        <h1>Login</h1>
+
+                        <form action="login.php"method="post">
+                        <p>Get access to our health services</p>
+                   
+                <div class="box-2">
+                    <div class="user-data">
+                        <input type="email" name="username" id="username" required>
+                        <label for="username">Enter email/mobile</label>
+                    </div>
+                    <div class="user-id user-data">
+                        <input type="password" name="password" id="password" required>
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="user-id">
+                        <p>By continuing, you agree to the terms and conditions</p>
+                    </div>
+                    <span>
+                       
+                    </span>
+
+                    <br>
+
+                    <div class="user-ids">
+                     <a class="user-ids" href="regester.html">REGESTER</a>
+
+                     <script>
+                        document.getElementById("login").addEventListener("click", function(event) {
+                            event.preventDefault();
+                            alert("Login successful");
+                       } );
+                    </script>
+
+
+                    </div>
+
+                   
+                
+                    <div class="user-id">
+                        <p>OR</p>
+                    </div>
+                   
+
+            <div class="user-ids">
+
+                     <a class="user-ids"href="login.html">LOGIN</a>
+
+
+                        
+                    </div>
+           
+                    <div class="user-id">
+                    	<br>
+                        <p class="footer"><a href="#">New to Jeff's? Create an account</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+             </div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
+
